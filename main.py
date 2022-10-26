@@ -5,7 +5,7 @@ from bot_commands import *
 
 
 
-app = ApplicationBuilder().token("5560335758:AAEigha5GaE4dAxq6Ne03vorjpJSlpzCSwI").build()
+app = ApplicationBuilder().token("secret_information").build()
 
 app.add_handler(CommandHandler("hi", zdarova_command))
 app.add_handler(CommandHandler("time", time_command))
